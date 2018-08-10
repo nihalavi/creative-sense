@@ -76,3 +76,6 @@ Below is a summary of the R2 scores from each of these models:
 <img id="Results_Summary_Table" src="Results_Summary_Table.JPG" alt="Results_Summary_Table">
 
 <img id="True_Predicted_Models" src="True_Predicted_Models.png" alt="True_Predicted_Models">
+
+### Appendix A
+### ipython Notebook for the Final Project Work 
