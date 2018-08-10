@@ -50,9 +50,12 @@ Below is a plot of distribution of rate of return for all loans, 42,452. As we s
 <img id="Return_Note_Grade" src="Return_Note_Grade.png" alt="Return_Note_Grade">
 
 ### Data Modeling
-Based on the correlation matrix and our definition of the response variables, we reviewed the variables in the data.  We decided on some variables as not relevant to our analysis. These included identification of borrower’s state, zip code and other columns that were descriptive, neither categorical nor numerical features.              
-We then reviewed data of predictor variables with only one value left. For example, the loans were issued to “individuals” only, with no “delinquencies” or no “collections in last 12 months” or no “charge-offs within 12 months” or no “tax liens”, and funding payment made with “cash”, and applications having “publicly available policy code”.                  
-We hot coded some of the categorical variables. With these efforts, we were left with a total of 19 predictor variables: categorical and quantitative.                    
+Based on the correlation matrix and our definition of the response variables, we reviewed the variables in the data.  We decided on some variables as not relevant to our analysis. These included identification of borrower’s state, zip code and other columns that were descriptive, neither categorical nor numerical features.
+
+We then reviewed data of predictor variables with only one value left. For example, the loans were issued to “individuals” only, with no “delinquencies” or no “collections in last 12 months” or no “charge-offs within 12 months” or no “tax liens”, and funding payment made with “cash”, and applications having “publicly available policy code”.    
+
+We hot coded some of the categorical variables. With these efforts, we were left with a total of 19 predictor variables: categorical and quantitative. 
+
 Based on all data, we ran a baseline model to get a feel of the data and found the R2 score to be 0.017. Below is a plot of predicted rate of returns versus true returns as a function of loan grade. As expected for a low score model, the predicted values capture the true data but does not predict the whole range of returns.
 <img id="True_and_Predicted_Return" src="True_and_Predicted_Return.png" alt="True_and_Predicted_Return">
 
@@ -107,6 +110,7 @@ Here is the statistical summary of the test data response variable:
 ### Recommended Portfolio to Invest
 
 As listed in our objective, we would like to recommend a portfolio of 10 loans that an investor can invest.  Below is a list of the ten highest predicted rate-of-returns.  
+
 The ten highest predicted rate-of-returns using the linear model predicted rate of returns are:
 
 <img id="Linear_model_rec" src="Linear_model_rec.JPG" alt="Linear_model_rec">
@@ -120,4 +124,5 @@ The ten highest predicted rate-of-returns using the 2nd order polynomial regress
 The models developed in the project exhibit very low R2 scores.  This is because it is difficult to correlate the response variable: rate of return with the predictor variables listed in the loans dataset available on the company website.  We would like to visit with the Lending Club and discuss our modeling results and seek opportunities for further modeling efforts. 
 
 The distribution chart above shows that the rate of return data is skewed to the left. Also, the rate of return dataset contains negative values due to complete loss of invested capital if the loan borrower failed to return the funded amount. We researched literature to figure out a way to get a better normal distribution of a long tail dataset containing negative values.  The suggestions included transforming the data by taking square of the variable or making a linear transformation of the dataset. We tried these two transformations however it did not improve our accuracy score.
+
 We also hope to take CS-109B in Spring 2019 and understand what other tools are available for dataset that is skewed to the left. 
