@@ -31,7 +31,7 @@ The data for loan applications from individuals.  The loan amount requested rang
 Here are the steps we have taken so far to clean up the data:
 1.	First we reviewed all 164 columns of data from which would have to identify response variable or variables and predictor variables.  We looked for those columns that had no data and removed them from the dataset. With this cleaning, we were left with 64 columns of data.  A list of the column removed is given in Appendix A containing the ipython notebook.
 2.	Second, we went through each of the 64 columns and reviewed columns with majority of the data missing.  We found nine columns with more than 90% of data missing, except for one with about 63% data missing. We dropped these columns also and were left with 55 variables: either predictor or response variables.
-3.	We also dropped about observations which did not have any values for some of the columns. Out of a total of 42,539 loan applications in the data set, we were left with 41,084 observations.
+3.	We also dropped those observations which did not have any values for some of the columns. Out of a total of 42,539 loan applications in the data set, we were left with 41,084 observations.
 4.	Then, we looked at the correlation between these variables and found significant correlations between several variables. The correlation matrix is shown below.
 <img id="correlation" src="correlation.png" alt="correlation">     
 5.	Next, we reviewed our strategy to come up with a response variable.  We decided to evaluate an investor’s rate of return on the amount funded for the loan.                                               
@@ -116,3 +116,8 @@ The ten highest predicted rate-of-returns using the 2nd order polynomial regress
 <img id="Poly_model_rec" src="Poly_model_rec.JPG" alt="Poly_model_rec">
 
 ### Future Work
+
+The models developed in the project exhibit very low R2 scores.  This is because it is difficult to correlate the response variable: rate of return with the predictor variables listed in the loans dataset available on the company website.  We would like to visit with the Lending Club and discuss our modeling results and seek opportunities for further modeling efforts. 
+
+The distribution chart above shows that the rate of return data is skewed to the left. Also, the rate of return dataset contains negative values due to complete loss of invested capital if the loan borrower failed to return the funded amount. We researched literature to figure out a way to get a better normal distribution of a long tail dataset containing negative values.  The suggestions included transforming the data by taking square of the variable or making a linear transformation of the dataset. We tried these two transformations however it did not improve our accuracy score.
+We also hope to take CS-109B in Spring 2019 and understand what other tools are available for dataset that is skewed to the left. 
