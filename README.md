@@ -45,6 +45,7 @@ Data Cleaning Here are the steps we have taken so far to clean up the data:
       
 	c.  The amount invested was given as amount committed to the loan The duration for this loan was calculated using the month when loan was funded and the month when the last payment was received
 	
+	
             Duration of the Loan in Years=t=(Month Last Payment Received-Loan Issue month)/12 
 	    
 	d.  The amount invested was given as amount committed to the loan With this information, we had the calculations for the 		response variable: rate of return
