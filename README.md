@@ -72,3 +72,5 @@ Then, we split 41,030 observations into training dataset (56%), tuning dataset (
 ### Results Summary
 
 Below is a summary of the R2 scores from each of these models:
+
+<img id="Results_Summary_Table" src="Results_Summary_Table.jpg" alt="Results_Summary_Table">
