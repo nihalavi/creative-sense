@@ -8,7 +8,20 @@ Lending club is a peer-to-peer platform that matches people looking to borrow wi
 
 ### Objective
 
-Our goal remains to build a strategy that will enable an investor to select and build a portfolio of loan notes, say 5 to 10, that maximizes the rate of return of the portfolio given a risk profile of the investor.  We will continue to work to achieve this objective as outline in the plan below.
+Our goal remains to build a strategy that will enable an investor to select and build a portfolio of loan notes, say 5 to 10, that maximizes the rate of return of the portfolio given a risk profile of the investor.
+
+### Project Outline
+1.	Extract, and visualize data on loan notes. Do a preliminary analysis to understand which variables seem to be dependent. 
+2.	Clean data as necessary 
+3.	Determine a methodology to accurately calculate a rate of return on individual loan notes based on loan amount, loan status, interest rate, service charges etc.
+4.	Group data by loan grade and calculate loan data statistics.  
+5.	Compare results with rate of returns advertised by the site and explain potential reasons why results may be different.
+6.	Determine optimal number of significant predictor variables and split data into training set, tuning and testing set.
+7.	Model the data using Multiple Linear Regression, Polynomial Regression, Ridge Regression, Lasso Regression, KNN Model, Neural Networks and an Ensemble model
+8.	Calculate test dataset scores from all models.
+9.	Compare predicted rate of return against true rate of return
+10.	Summarize results.
+11.	Conclusions and Future Work
 
 ### Description of the Data
 We located a file name “LoanStats3a.csv” on the lending club website and imported the data to ipython notebook. We found that there are 42,539 observations and 164 columns. The Lending Club website listed that the data was from 2007 to 2011. 
@@ -20,3 +33,7 @@ Data Cleaning Here are the steps we have taken so far to clean up the data:
 4.	Then, we looked at the correlation between these variables and found significant correlations between several variables. The correlation matrix is shown below.
 
 <img id="correlation" src="correlation.png" alt="correlation">
+
+5.	Next, we reviewed our strategy to come up with a response variable.  We decided to evaluate an investor’s rate of return on the amount funded for the loan.  
+    a.  To calculate the return, we calculated the total net amount investor received from this investment.  We calculate the total net payment received as follows:
+    Total Net Amount Returned=A=Total Principal Received+Total Interest Received+Total Late Fees Received+Post Charge Off Gross Recoveries-Collection Recovery Fees
