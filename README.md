@@ -37,13 +37,13 @@ Data Cleaning Here are the steps we have taken so far to clean up the data:
 5.	Next, we reviewed our strategy to come up with a response variable.  We decided to evaluate an investor’s rate of return on the amount funded for the loan.
 
     a.  To calculate the return, we calculated the total net amount investor received from this investment.  We calculate the total net payment received as follows:
- <img id="Total Net Amount" src="Total%20Net%20Amount%20Returned.JPG" alt="Total Net Amount">
+    <img id="Total Net Amount" src="Total%20Net%20Amount%20Returned.JPG" alt="Total Net Amount">
     b.  The amount invested was given as amount committed to the loan: 
- <img id="Total_Amount_Funded" src="Total_Amount_Funded.JPG" alt="Total_Amount_Funded">
+    <img id="Total_Amount_Funded" src="Total_Amount_Funded.JPG" alt="Total_Amount_Funded">      
     c.	The duration for this loan was calculated using the month when loan was funded and the month when the last payment was received.
- <img id="Loan_Duration" src="Loan_Duration.JPG" alt="Loan_Duration">   
+    <img id="Loan_Duration" src="Loan_Duration.JPG" alt="Loan_Duration">   
     d.  With this information, we had the calculations for the response variable: rate of return.
- <img id="rate_of_return" src="rate_of_return.JPG" alt="rate_of_return">
+    <img id="rate_of_return" src="rate_of_return.JPG" alt="rate_of_return">
 Below is a plot of distribution of rate of return for all loans, 42,452. As we see, there are several loans where an investor lost all of the funding amount
 
 <img id="Rate_of_Return_Distribution" src="Rate_of_Return_Distribution.png" alt="Rate_of_Return_Distribution">
