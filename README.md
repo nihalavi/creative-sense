@@ -48,9 +48,22 @@ Below is a plot of distribution of rate of return for all loans, 42,452. As we s
 6.	We plotted calculated rate of return against the Grade assigned to the loan and found the trend similar to what is posted on Lending Club website. That is the rate of return increases as the Loan grade increases from “A” to “G” as shown below. Also shown is the plot from the lending club website. One thing different our plot and that of the lending club is that we show negative returns but the website does not show negative return.  We know there are several borrowers who did not repay their loans so the data shown in the chart at the website is missing data of the delinquent borrowers.
 <img id="Loan_Rate_Return_Loan_Grade" src="Loan_Rate_Return_Loan_Grade.png" alt="Loan_Rate_Return_Loan_Grade">
 <img id="Return_Note_Grade" src="Return_Note_Grade.png" alt="Return_Note_Grade">
+
 ### Data Modeling
 Based on the correlation matrix and our definition of the response variables, we reviewed the variables in the data.  We decided on some variables as not relevant to our analysis. These included identification of borrower’s state, zip code and other columns that were descriptive, neither categorical nor numerical features.              
 We then reviewed data of predictor variables with only one value left. For example, the loans were issued to “individuals” only, with no “delinquencies” or no “collections in last 12 months” or no “charge-offs within 12 months” or no “tax liens”, and funding payment made with “cash”, and applications having “publicly available policy code”.                  
 We hot coded some of the categorical variables. With these efforts, we were left with a total of 19 predictor variables: categorical and quantitative.                    
 Based on all data, we ran a baseline model to get a feel of the data and found the R2 score to be 0.017. Below is a plot of predicted rate of returns versus true returns as a function of loan grade. As expected for a low score model, the predicted values capture the true data but does not predict the whole range of returns.
 <img id="True_and_Predicted_Return" src="True_and_Predicted_Return.png" alt="True_and_Predicted_Return">
+
+Then, we split 41,030 observations into training dataset (56%), tuning dataset (24%) and the rest into test datasets. We then ran training dataset through multiple models and calculated regression score on the training and test dataset. The models we ran were:
+•	Multiple Linear Regression
+•	2nd Order Polynomial Regression
+•	3rd Order Polynomial Regression
+•	Ridge Linear Regression with cross-validation for regularization parameter 
+•	Lasso Linear Regression with cross-validation for regularization parameter 
+•	2nd Order Polynomial Ridge Regression with cross-validation for regularization parameter
+•	2nd Order Polynomial Lasso Regression with cross-validation for regularization parameter
+•	KNN Model with cross-validation for number of neighbors
+•	Neural Network
+•	Ensemble Model on the Linear Regression Models
