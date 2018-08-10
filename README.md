@@ -57,13 +57,14 @@ Based on all data, we ran a baseline model to get a feel of the data and found t
 <img id="True_and_Predicted_Return" src="True_and_Predicted_Return.png" alt="True_and_Predicted_Return">
 
 Then, we split 41,030 observations into training dataset (56%), tuning dataset (24%) and the rest into test datasets. We then ran training dataset through multiple models and calculated regression score on the training and test dataset. The models we ran were:
-•	Multiple Linear Regression
-•	2nd Order Polynomial Regression
-•	3rd Order Polynomial Regression
-•	Ridge Linear Regression with cross-validation for regularization parameter 
-•	Lasso Linear Regression with cross-validation for regularization parameter 
-•	2nd Order Polynomial Ridge Regression with cross-validation for regularization parameter
-•	2nd Order Polynomial Lasso Regression with cross-validation for regularization parameter
-•	KNN Model with cross-validation for number of neighbors
-•	Neural Network
-•	Ensemble Model on the Linear Regression Models
+
+-   Multiple Linear Regression
+-   2nd Order Polynomial Regression
+-   3rd Order Polynomial Regression
+-   Ridge Linear Regression with cross-validation for regularization parameter 
+-   Lasso Linear Regression with cross-validation for regularization parameter 
+-   2nd Order Polynomial Ridge Regression with cross-validation for regularization parameter
+-   2nd Order Polynomial Lasso Regression with cross-validation for regularization parameter
+-   KNN Model with cross-validation for number of neighbors
+-   Neural Network
+-   Ensemble Model on the Linear Regression Models
