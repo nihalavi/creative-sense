@@ -102,5 +102,15 @@ Here is the statistical summary of the test data response variable:
   - skewness=0.446800882473385, 
   - kurtosis=31.807910428345323
 
-### Appendix A
-### ipython Notebook for the Final Project Work 
+### Recommended Portfolio to Invest
+
+As listed in our objective, we would like to recommend a portfolio of 10 loans that an investor can invest.  Below is a list of the ten highest predicted rate-of-returns.  
+The ten highest predicted rate-of-returns using the linear model predicted rate of returns are:
+
+<img id="Linear_model_rec" src="Linear_model_rec.JPG" alt="Linear_model_rec">
+
+The ten highest predicted rate-of-returns using the 2nd order polynomial regression model are:
+
+<img id="Poly_model_rec" src="Poly_model_rec.png" alt="Poly_model_rec">
+
+### Future Work
