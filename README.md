@@ -77,5 +77,30 @@ Below is a summary of the R2 scores from each of these models:
 
 <img id="True_Predicted_Models" src="True_Predicted_Models.png" alt="True_Predicted_Models">
 
+Here is the statistical summary of the test data response variable:
+- True response variable summary:
+  - nobs=8182, 
+  - minmax= (-100.0, 43.909039857023501), 
+  - mean=0.049527210985669763, 
+  - variance=518.52405955295558, 
+  - skewness=-3.2256815615995436, 
+  - kurtosis=9.683449314980685
+  
+- Linear Regression predicted response variable summary:
+  - nobs=8182, 
+  - minmax= (-28.075227494938652, 108.73777856006748), 
+  - mean= 0.088435166051528194,
+  - variance= 10.686902031568248,
+  - skewness=3.6555570909714596, 
+  - kurtosis=152.07682995153087
+ 
+- 2nd Order Polynomial Regression predicted response variable summary:
+  - nobs=8182, 
+  - minmax= (-27.264683288833567, 75.995858611072052),  
+  - mean= 0.079186165215684265, 
+  - variance= 11.764743373173422, 
+  - skewness=0.446800882473385, 
+  - kurtosis=31.807910428345323
+
 ### Appendix A
 ### ipython Notebook for the Final Project Work 
