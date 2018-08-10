@@ -36,4 +36,7 @@ Data Cleaning Here are the steps we have taken so far to clean up the data:
 
 5.	Next, we reviewed our strategy to come up with a response variable.  We decided to evaluate an investor’s rate of return on the amount funded for the loan.  
     a.  To calculate the return, we calculated the total net amount investor received from this investment.  We calculate the total net payment received as follows:
-    Total Net Amount Returned=A=Total Principal Received+Total Interest Received+Total Late Fees Received+Post Charge Off Gross Recoveries-Collection Recovery Fees
+ 
+ <img id="Total Net Amount" src="Total Net Amount Returned.jpg" alt="Total Net Amount">
+ 
+ 
