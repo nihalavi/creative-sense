@@ -35,7 +35,7 @@ Data Cleaning Here are the steps we have taken so far to clean up the data:
 <img id="correlation" src="correlation.png" alt="correlation">
 
 5.	Next, we reviewed our strategy to come up with a response variable.  We decided to evaluate an investor’s rate of return on the amount funded for the loan.  
-    a.  To calculate the return, we calculated the total net amount investor received from this investment.  We calculate the total net payment received as follows:
+    	a.  To calculate the return, we calculated the total net amount investor received from this investment.  We calculate the total net payment received as follows:
     
     <img id="Total Net Amount" src="Total%20Net%20Amount%20Returned.JPG" alt="Total Net Amount">
  
