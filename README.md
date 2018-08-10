@@ -19,4 +19,4 @@ Data Cleaning Here are the steps we have taken so far to clean up the data:
 3.	We also dropped about observations which did not have any values for some of the columns. Out of a total of 42,539 loan applications in the data set, we were left with 41,084 observations.
 4.	Then, we looked at the correlation between these variables and found significant correlations between several variables. The correlation matrix is shown below.
 
-https://github.com/nihalavi/creative-sense/blob/master/correlation.png
+<img id="logo" src="jt.png" alt="JT logo">
