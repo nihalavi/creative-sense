@@ -48,3 +48,4 @@ Data Cleaning Here are the steps we have taken so far to clean up the data:
 
 Below is a plot of distribution of rate of return for all loans, 42,452. As we see, there are several loans where an investor lost all of the funding amount
 
+<img id="Rate_of_Return_Distribution" src="Rate_of_Return_Distribution.png" alt="Rate_of_Return_Distribution">
