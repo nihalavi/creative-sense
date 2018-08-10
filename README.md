@@ -36,7 +36,15 @@ Data Cleaning Here are the steps we have taken so far to clean up the data:
 
 5.	Next, we reviewed our strategy to come up with a response variable.  We decided to evaluate an investor’s rate of return on the amount funded for the loan.  
     a.  To calculate the return, we calculated the total net amount investor received from this investment.  We calculate the total net payment received as follows:
+    
+    <img id="Total Net Amount" src="Total%20Net%20Amount%20Returned.JPG" alt="Total Net Amount">
  
- <img id="Total Net Amount" src="Total%20Net%20Amount%20Returned.JPG" alt="Total Net Amount">
- 
- 
+ 	b.  The amount invested was given as amount committed to the loan 
+      Total Amount Funded=  P
+	c.  The amount invested was given as amount committed to the loan The duration for this loan was calculated using the month when loan was funded and the month when the last payment was received
+            Duration of the Loan in Years=t=(Month Last Payment Received-Loan Issue month)/12 
+	d.  The amount invested was given as amount committed to the loan With this information, we had the calculations for the response variable: rate of return
+    Rate of Return=r= ((Total Net Amount Received,A)/(Total Amount Funded,P))^((1/t) )-1
+
+Below is a plot of distribution of rate of return for all loans, 42,452. As we see, there are several loans where an investor lost all of the funding amount
+
