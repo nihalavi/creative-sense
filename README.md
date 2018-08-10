@@ -38,6 +38,7 @@ Data Cleaning Here are the steps we have taken so far to clean up the data:
     	a.  To calculate the return, we calculated the total net amount investor received from this investment.  We calculate the total net payment received as follows:
     
     <img id="Total Net Amount" src="Total%20Net%20Amount%20Returned.JPG" alt="Total Net Amount">
+    
  	    b.  The amount invested was given as amount committed to the loan: 
     <img id="Total_Amount_Funded" src="Total_Amount_Funded.JPG" alt="Total_Amount_Funded">
       
