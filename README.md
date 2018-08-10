@@ -34,8 +34,7 @@ Here are the steps we have taken so far to clean up the data:
 3.	We also dropped about observations which did not have any values for some of the columns. Out of a total of 42,539 loan applications in the data set, we were left with 41,084 observations.
 4.	Then, we looked at the correlation between these variables and found significant correlations between several variables. The correlation matrix is shown below.
 <img id="correlation" src="correlation.png" alt="correlation">     
-5.	Next, we reviewed our strategy to come up with a response variable.  We decided to evaluate an investor’s rate of return on the amount funded for the loan.
-
+5.	Next, we reviewed our strategy to come up with a response variable.  We decided to evaluate an investor’s rate of return on the amount funded for the loan.                                               
     a.  To calculate the return, we calculated the total net amount investor received from this investment.  We calculate the total net payment received as follows:
     <img id="Total Net Amount" src="Total%20Net%20Amount%20Returned.JPG" alt="Total Net Amount">
     b.  The amount invested was given as amount committed to the loan: 
@@ -44,8 +43,7 @@ Here are the steps we have taken so far to clean up the data:
     <img id="Loan_Duration" src="Loan_Duration.JPG" alt="Loan_Duration">   
     d.  With this information, we had the calculations for the response variable: rate of return.
     <img id="rate_of_return" src="rate_of_return.JPG" alt="rate_of_return">
-Below is a plot of distribution of rate of return for all loans, 42,452. As we see, there are several loans where an investor lost all of the funding amount
-
+Below is a plot of distribution of rate of return for all loans, 42,452. As we see, there are several loans where an investor lost all of the funding amount                                                    
 <img id="Rate_of_Return_Distribution" src="Rate_of_Return_Distribution.png" alt="Rate_of_Return_Distribution">      
 6.	We plotted calculated rate of return against the Grade assigned to the loan and found the trend similar to what is posted on Lending Club website. That is the rate of return increases as the Loan grade increases from “A” to “G” as shown below. Also shown is the plot from the lending club website. One thing different our plot and that of the lending club is that we show negative returns but the website does not show negative return.  We know there are several borrowers who did not repay their loans so the data shown in the chart at the website is missing data of the delinquent borrowers.
 <img id="Loan_Rate_Return_Loan_Grade" src="Loan_Rate_Return_Loan_Grade.png" alt="Loan_Rate_Return_Loan_Grade">
