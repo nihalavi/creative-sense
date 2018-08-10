@@ -39,8 +39,9 @@ Data Cleaning Here are the steps we have taken so far to clean up the data:
     
     <img id="Total Net Amount" src="Total%20Net%20Amount%20Returned.JPG" alt="Total Net Amount">
  
- 	b.  The amount invested was given as amount committed to the loan 
-      		Total Amount Funded=  P
+ 	b.  The amount invested was given as amount committed to the loan: 
+    
+    <img id="Total_Amount_Funded" src="Total_Amount_Funded.JPG" alt="Total_Amount_Funded">
       
 	c.  The amount invested was given as amount committed to the loan The duration for this loan was calculated using the month when loan was funded and the month when the last payment was received
 	
