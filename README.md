@@ -1,6 +1,6 @@
 # CS 109 A Final project
 ## Group #8, Naval Goel and Vinay Nihalani
-### Lending Club
+## Lending Club
 ### Project Background
 
 Lending club is a peer-to-peer platform that matches people looking to borrow with people willing to lend. 
@@ -68,3 +68,7 @@ Then, we split 41,030 observations into training dataset (56%), tuning dataset (
 -   KNN Model with cross-validation for number of neighbors
 -   Neural Network
 -   Ensemble Model on the Linear Regression Models
+
+### Results Summary
+
+Below is a summary of the R2 scores from each of these models:
