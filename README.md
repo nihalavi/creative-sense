@@ -75,6 +75,8 @@ Below is a summary of the R2 scores from each of these models:
 
 <img id="Results_Summary_Table" src="Results_Summary_Table.JPG" alt="Results_Summary_Table">
 
+Below plot shows comparison of true rate of returns for the test dataset against linear model and 2nd order polynomial model predictions:
+
 <img id="True_Predicted_Models" src="True_Predicted_Models.png" alt="True_Predicted_Models">
 
 Here is the statistical summary of the test data response variable:
@@ -111,6 +113,6 @@ The ten highest predicted rate-of-returns using the linear model predicted rate 
 
 The ten highest predicted rate-of-returns using the 2nd order polynomial regression model are:
 
-<img id="Poly_model_rec" src="Poly_model_rec.png" alt="Poly_model_rec">
+<img id="Poly_model_rec" src="Poly_model_rec.JPG" alt="Poly_model_rec">
 
 ### Future Work
