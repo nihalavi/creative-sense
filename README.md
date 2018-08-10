@@ -47,3 +47,6 @@ Here are the steps we have taken so far to clean up the data:
 Below is a plot of distribution of rate of return for all loans, 42,452. As we see, there are several loans where an investor lost all of the funding amount
 
 <img id="Rate_of_Return_Distribution" src="Rate_of_Return_Distribution.png" alt="Rate_of_Return_Distribution">
+6.	We plotted calculated rate of return against the Grade assigned to the loan and found the trend similar to what is posted on Lending Club website. That is the rate of return increases as the Loan grade increases from “A” to “G” as shown below. Also shown is the plot from the lending club website. One thing different our plot and that of the lending club is that we show negative returns but the website does not show negative return.  We know there are several borrowers who did not repay their loans so the data shown in the chart at the website is missing data of the delinquent borrowers.
+<img id="Loan_Rate_Return_Loan_Grade" src="Loan_Rate_Return_Loan_Grade.png" alt="Loan_Rate_Return_Loan_Grade">
+<img id="Return_Note_Grade" src="Return_Note_Grade.png" alt="Return_Note_Grade">
